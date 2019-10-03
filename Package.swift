@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "Cairo", targets: ["Cairo"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/SwiftGObject.git", .branch("master"))
+        .package(url: "https://github.com/mumuss/SwiftGObject.git", .branch("master"))
     ],
     targets: [
 	.systemLibrary(name: "CCairo", pkgConfig: "cairo glib-2.0 gio-unix-2.0",
